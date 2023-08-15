@@ -1,0 +1,21 @@
+.stop-btn{
+    opacity: 0.3;
+    cursor: no-drop !important;
+    pointer-events: none;
+}
+
+.block{
+    width: 400px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.success span{
+    color: green;
+}
+
+.fail span{
+    color: red;
+}
